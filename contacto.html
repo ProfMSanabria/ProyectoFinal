@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantas Medicinales - Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__item"><a href="index.html" class="navegacion__enlace">Inicio</a></li>
+                <li class="navegacion__item"><a href="informacion.html" class="navegacion__enlace">Información General</a></li>
+                <li class="navegacion__item"><a href="galeria.html" class="navegacion__enlace">Galería</a></li>
+                <li class="navegacion__item"><a href="contacto.html" class="navegacion__enlace">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1 class="encabezado__titulo">Contáctanos</h1>
+        <p class="encabezado__subtitulo">Estamos aquí para escucharte</p>
+    </header>
+
+    <main class="contenedor">
+        <section class="seccion">
+            <h2 class="seccion__titulo">Envíanos un Mensaje</h2>
+            <form action="#" method="POST" class="formulario-contacto">
+                <div class="formulario-contacto__grupo">
+                    <label for="nombre" class="formulario-contacto__etiqueta">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" class="formulario-contacto__entrada" required>
+                </div>
+                <div class="formulario-contacto__grupo">
+                    <label for="correo" class="formulario-contacto__etiqueta">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" class="formulario-contacto__entrada" required>
+                </div>
+                <div class="formulario-contacto__grupo">
+                    <label for="mensaje" class="formulario-contacto__etiqueta">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" class="formulario-contacto__textarea" required></textarea>
+                </div>
+                <button type="submit" class="formulario-contacto__boton">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <section class="seccion">
+            <h2 class="seccion__titulo">Síguenos en Redes Sociales</h2>
+            <div class="redes-sociales">
+                <a href="https://www.instagram.com" target="_blank"  class="redes-sociales__enlace">
+                    <i class="fab fa-instagram fa-2x"></i> Instagram
+                </a>
+                <a href="https://www.twitter.com" target="_blank"  class="redes-sociales__enlace">
+                    <i class="fab fa-twitter fa-2x"></i> Twitter
+                </a>
+            </div>
+        </section>
+    </main>
+
+   <footer class="pie-pagina">
+        <p>Realizado por Mónica Sanabria.</p>
+        <p>Fotos y videos proporcionados por <a href="https://www.pexels.com" target="_blank">Pexels</a>.</p>
+    </footer>
+</body>
+</html>
